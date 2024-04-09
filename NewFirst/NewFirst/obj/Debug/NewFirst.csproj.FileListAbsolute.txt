@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\NewFirst\NewFirst\bin\Debug\NewFirst.exe.config
+C:\Users\HP\source\repos\NewFirst\NewFirst\bin\Debug\NewFirst.exe
+C:\Users\HP\source\repos\NewFirst\NewFirst\bin\Debug\NewFirst.pdb
+C:\Users\HP\source\repos\NewFirst\NewFirst\obj\Debug\NewFirst.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\NewFirst\NewFirst\obj\Debug\NewFirst.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\NewFirst\NewFirst\obj\Debug\NewFirst.exe
+C:\Users\HP\source\repos\NewFirst\NewFirst\obj\Debug\NewFirst.pdb

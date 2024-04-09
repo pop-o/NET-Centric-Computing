@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\ClassWork\ClassWork\bin\Debug\ClassWork.exe.config
+C:\Users\HP\source\repos\ClassWork\ClassWork\bin\Debug\ClassWork.exe
+C:\Users\HP\source\repos\ClassWork\ClassWork\bin\Debug\ClassWork.pdb
+C:\Users\HP\source\repos\ClassWork\ClassWork\obj\Debug\ClassWork.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\ClassWork\ClassWork\obj\Debug\ClassWork.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\ClassWork\ClassWork\obj\Debug\ClassWork.exe
+C:\Users\HP\source\repos\ClassWork\ClassWork\obj\Debug\ClassWork.pdb
