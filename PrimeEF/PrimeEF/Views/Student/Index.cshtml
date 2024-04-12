@@ -1,6 +1,22 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model List<PrimeEF.Models.Student>
 <h1>Welcome</h1>
+<table border="1">
+    <tr>
+        <th>id</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Address</th>
+        <th>Faculty</th>
+    </tr>
+    @foreach(var v1 in Model)
+    {
+        <tr>
+            <td>@v1.Id</td>
+            <td>@v1.Name</td>
+            <td>@v1.Gender</td>
+            <td>@v1.Address</td>
+            <td>@v1.Faculty</td>
+            <td><a href="Student/Edit/@v1.Id">Edit</a></td>
+        </tr>
+    }
+</table>

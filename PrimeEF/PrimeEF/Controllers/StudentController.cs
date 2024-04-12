@@ -33,9 +33,15 @@ namespace PrimeEF.Controllers
             sc.SaveChanges();
             return RedirectToAction("Index");
         }
+        //displaying data
+
         public IActionResult Index()
         {
-            return View();
+            //data will be displayed in index.cshtml
+            //data from table will be converted into list and sent to view
+            var viewStd=sc.Students.ToList();
+
+            return View(viewStd);
         }
     }
 }
