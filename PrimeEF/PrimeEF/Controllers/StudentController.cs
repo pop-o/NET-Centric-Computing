@@ -100,8 +100,25 @@ namespace PrimeEF.Controllers
             
             
         }
-        
+
+        [HttpPost]
+        public IActionResult Delete(Guid id)
+        {
+            // Find the student to delete by id
+            var studentToDelete = sc.Students.FirstOrDefault(x => x.Id == id);
+
+            if (studentToDelete != null)
+            {
+                // Remove the student from the database context
+                sc.Students.Remove(studentToDelete);
+
+                // Save changes to the database
+                sc.SaveChanges();
+            }
+
+            return RedirectToAction("Index");
+        }
 
     }
-    
+
 }

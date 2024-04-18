@@ -16,7 +16,11 @@
             <td>@v1.Gender</td>
             <td>@v1.Address</td>
             <td>@v1.Faculty</td>
-            <td><a href="Edit/@v1.Id">Edit</a></td>
+            <td><a href="Student/Edit/@v1.Id">Edit</a></td>
+            <td><form method="post" asp-route-id="@v1.Id" asp-action="Delete">
+                <input type="submit" value="delete" />
+            </form>
+            </td>
         </tr>
     }
 </table>
