@@ -20,7 +20,7 @@ namespace PrimeEF.Controllers
         }
         [HttpPost]
         //accept form data and insert into database table
-        public IActionResult InsertStudent(AddStudent s)
+        public IActionResult InsertStudent(Student s)
         {
             var st = new Student()
             {
@@ -51,17 +51,21 @@ namespace PrimeEF.Controllers
             //check if id sent from view is matched with database record or not
             //if matched send the data to set method od EditStudent
             var editData=sc.Students.FirstOrDefault(x => x.Id == id);
+            
             if(editData != null)
             {
+                
                 //if id mathced with db table record
-                var editStd = new EditStudent()
+                var editStd = new Student()
                 {
+                    
                     Id=editData.Id,
                     Name=editData.Name,
                     Gender=editData.Gender,
                     Address=editData.Address,
                     Faculty=editData.Faculty
                 };
+                Console.WriteLine(editStd.Id);
                 return View(editStd);
             }
             else
@@ -73,23 +77,28 @@ namespace PrimeEF.Controllers
 
         }
         [HttpPost]
-        public IActionResult Edit(EditStudent es) 
+        public IActionResult Edit(Student es) 
         {
             //checking if id of editStudent persit or not in database
             //save changes in database
             var editStds = sc.Students.Find(es.Id);
-            if(editStds != null )
+            
+            if (editStds != null )
             {
-                editStds.Id = es.Id;
+        
+                //editStds.Id=es.Id;
                 editStds.Name = es.Name;
                 editStds.Gender = es.Gender;
                 editStds.Address = es.Address;  
                 editStds.Faculty = es.Faculty;
-                sc.Students.Add(editStds);
+                Console.WriteLine(editStds.Faculty);
                 sc.SaveChanges();
-                return RedirectToAction("Index");
+                
             }
-            return RedirectToAction("Index");
+            
+                return RedirectToAction("Index");
+            
+            
         }
         
 

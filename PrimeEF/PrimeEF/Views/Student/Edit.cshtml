@@ -1,16 +1,18 @@
-﻿@model PrimeEF.Models.EditStudent
+﻿@model PrimeEF.Models.Student
 <form action="Edit" method="post">
+    <label>Id</label>
+    <input type="text" asp-for="Id"  readonly /><br />
     <label>Name</label>
-    <input type="text" asp-for="Name" /><br />
+    <input type="text" asp-for="Name" name="Name" value="@Model.Name" /><br />
 
 
     <label>Gender</label>
-    <input type="text" asp-for="Gender" /><br />
+    <input type="text" asp-for="Gender" name="Gender" value="@Model.Gender" /><br />
 
     <label>Address</label>
-    <input type="text" asp-for="Address" /><br />
+    <input type="text" asp-for="Address" name="Address" value="@Model.Address" /><br />
 
     <label>Faculty</label>
-    <input type="text" asp-for="Faculty" /><br />
+   <input type="text" asp-for="Faculty" name="Faculty" value="@Model.Faculty" /><br />
     <input type="submit" name="submit" value="Submit" />
 </form>
