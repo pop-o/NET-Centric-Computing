@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Hiome</h2>
+@*Cookies*@
+@*@if (Request.Cookies["user"] == null)
+{
+    <p>@Html.ActionLink("Login please", "Index", "Auth")</p>
+}
+else
+{
+    <h2>Welcome, @Request.Cookies["user"].Value</h2>
+}*@
+@*Session*@
+@if (Session["user"] == null)
+{
+    <p>@Html.ActionLink("Login please", "Index", "Auth")</p>
+}
+else
+{
+    <h2>Welcome, @Session["user"]</h2>
+    <p>@Html.ActionLink("Logout","Log","Auth")</p>
+}
+@*Tempdata*@
+@TempData["user"]
