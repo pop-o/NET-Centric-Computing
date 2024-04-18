@@ -45,7 +45,7 @@ namespace AuthenticationAuthorization.Controllers
             {
                 //add authorization
                 //claim: authorization detail
-                //identity: which mechanism to be used for authorization:cookie
+                //identity: which mechanism to be used for authorization: cookie
                 //principle: to whom to authorize
                 List<Claim> claims = new List<Claim>();
                 claims.Add(new Claim(ClaimTypes.NameIdentifier,username));
