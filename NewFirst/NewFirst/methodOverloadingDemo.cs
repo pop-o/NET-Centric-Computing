@@ -23,7 +23,6 @@ namespace NewFirst
         {
             return (x * y * z);
         }
-        //method overrriding is used to achieve static polymorphism
-        //looks like same but different work
+        
     }
 }
