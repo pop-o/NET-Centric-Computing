@@ -68,6 +68,6 @@ C:\Users\HP\source\repos\webformPirmeB\webformPirmeB\bin\Microsoft.AspNet.Friend
 C:\Users\HP\source\repos\webformPirmeB\webformPirmeB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\HP\source\repos\webformPirmeB\webformPirmeB\obj\Debug\webformPirmeB.csproj.AssemblyReference.cache
 C:\Users\HP\source\repos\webformPirmeB\webformPirmeB\obj\Debug\webformPirmeB.csproj.CoreCompileInputs.cache
-C:\Users\HP\source\repos\webformPirmeB\webformPirmeB\obj\Debug\webformPirmeB.csproj.CopyComplete
 C:\Users\HP\source\repos\webformPirmeB\webformPirmeB\obj\Debug\webformPirmeB.dll
 C:\Users\HP\source\repos\webformPirmeB\webformPirmeB\obj\Debug\webformPirmeB.pdb
+C:\Users\HP\source\repos\webformPirmeB\webformPirmeB\obj\Debug\webformP.3D841D75.Up2Date
