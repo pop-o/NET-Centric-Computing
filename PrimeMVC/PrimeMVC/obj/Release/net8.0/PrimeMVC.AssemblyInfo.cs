@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrimeMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+253cf1a8245ec0229bac0172e82a88638407e6c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrimeMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrimeMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\Prac\Prac\obj\Debug\Prac.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Prac\Prac\obj\Debug\Prac.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Prac\Prac\bin\Debug\Prac.exe.config
+C:\Users\HP\source\repos\Prac\Prac\bin\Debug\Prac.exe
+C:\Users\HP\source\repos\Prac\Prac\bin\Debug\Prac.pdb
+C:\Users\HP\source\repos\Prac\Prac\obj\Debug\Prac.exe
+C:\Users\HP\source\repos\Prac\Prac\obj\Debug\Prac.pdb

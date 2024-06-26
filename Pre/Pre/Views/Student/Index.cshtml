@@ -1,0 +1,19 @@
+﻿
+@{
+}
+@model List<Pre.Models.Student>
+<h1>Welcome</h1>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+    </tr>
+    @foreach(var v in Model)
+    {
+        <tr>
+            <td>@v.Id</td>
+            <td>@v.Name</td>
+        </tr>
+    }
+</table>
+

@@ -11,7 +11,7 @@ namespace PrimeEF.Controllers
         public StudentController(StudentContext sc) 
         {
             this.sc = sc;
-        }
+        }   
         //this method is used for creating form in view. it uses get
         [HttpGet]
         public IActionResult InsertStudent()
@@ -42,7 +42,31 @@ namespace PrimeEF.Controllers
             //data from table will be converted into list and sent to view
             var viewStd=sc.Students.ToList();
 
+
             return View(viewStd);
+
+
+            //retrive studnet with name Poem
+            //var students = sc.Students.Where(s => s.Name.Contains("Poem")).ToList();
+            //return View(students);
+        }
+
+
+        //Change address of Student with name Poem
+        public IActionResult Change()
+        {
+            var std = sc.Students.Where(s => s.Name.Contains("Poem")).ToList();
+            if (std != null)
+            {
+
+            foreach(var s in std)
+            {
+                    s.Faculty = "BBA";
+                s.Address = "kathmandu";
+            }
+            sc.SaveChanges();
+            }
+            return RedirectToAction("Index");
         }
         //action method for update operation
         [HttpGet]
